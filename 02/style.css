@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: "italic";
+    src: url(font/ttf/SofiaSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "italic-bold";
+    src: url(font/ttf/SofiaSans-BoldItalic.ttf);
+}
+
+body {
+    background: #910DA7;
+}
+
+.tema-escuro {
+    background-color: #461050;
+}
+
+.botao-escuro{
+    background-color: #461050;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "italic";
+    margin: 2% 0;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+}
+
+header h1 span {
+    color: #70FF00;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    font-weight: 400;
+    font-size: 33px;
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+header nav button {
+    width: 50px;
+    height: 50px;
+}
+
+header nav button img {
+    display: flex;
+    width: 35px;
+    height: auto;
+    margin: 0 16px;
+}
+
+header nav button i {
+    font-size: 40px;
+}
+
+.tema-sol {
+    display: none;
+    width: 60px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 7% 0;
+}
+
+.banner img {
+    width: 333px;
+    height: 450px;
+    border-radius: 55px;
+    box-shadow: -30px -30px 0px 0px #52BA00;
+}
+
+.banner h2 {
+    font-family: "italic";
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    width: 450px;
+    text-align: center;
+}
+
+.servicos {
+    background-color: white;
+}
+
+.servicos h1 {
+    font-family: "italic";
+    font-size: 45px;
+    font-weight: 500;
+    color: #EA4710;
+    padding: 55px 135px;
+}
+
+.servicos h1 span {
+    font-family: "italic-bold";
+    font-weight: 800;
+}
+
+.servico-um,
+.servico-dois {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servico-dois {
+    padding-bottom: 55px;
+}
+
+.servico-um img,
+.servico-dois img {
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    object-position: 5px 5px;
+    box-shadow: 4px 4px #D9D9D9;
+}
+
+.ensaios {
+    display: flex;
+    margin: 2% 10.5%;
+}
+
+.ensaios h3 {
+    font-family: "italic";
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ensaios h3 span {
+    font-family: "italic-bold";
+    font-weight: 400;
+}
+
+.arrumar-fotografia {
+    margin-left: 12%;
+}
+
+.arrumar-ensaio {
+    margin-left: 13%;
+}
+
+.blog h1 {
+    font-family: "italic";
+    font-size: 45px;
+    font-weight: 500;
+    color: #70FF00;
+    padding: 55px 135px;
+}
+
+.blog h1 span {
+    font-family: "italic-bold";
+    font-weight: 800;
+}
+
+.blog-imagem {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.contate {
+    background-color: white;
+}
+
+.contate h1 {
+    font-family: "italic";
+    font-size: 45px;
+    font-weight: 500;
+    color: #EA4710;
+    padding: 55px 135px;
+}
+
+.contate h1 span {
+    font-family: "italic-bold";
+    font-weight: 800;
+}
+
+.form-contato {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-contato img {
+    width: 400px;
+    height: auto;
+    padding-bottom: 55px;
+}
+
+form {
+    display: grid;
+}
+
+form label {
+    font-family: "italic";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input {
+    height: 50px;
+    padding: 0 15px;
+    width: 320px;
+}
+
+input,
+textarea {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+textarea {
+    padding: 15px 15px;
+    resize: none;
+}
+
+.botao {
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+button {
+    background-color: #920DA7;
+    color: white;
+    font-family: "italic";
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 40px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "italic";
+    margin: 7% 0;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+}
+
+footer nav a {
+    font-weight: 400;
+    font-size: 33px;
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+footer h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: white;
+}
+
+footer span {
+    color: #70FF00;
+}
